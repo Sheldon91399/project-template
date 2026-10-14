@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache files
+.cache/
+tmp/
+temp/
+
+# Compiled files
+*.class
+*.o
+*.pyc
+__pycache__/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Local configuration
+*.local
+
+# Package manager / tool caches
+.npm/
+.yarn/cache/
